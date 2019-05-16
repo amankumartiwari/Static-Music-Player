@@ -1,0 +1,439 @@
+<html>
+        <head>
+            <title>My Project</title>
+            <link rel="stylesheet" type="text/css" href="abc.css">
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        </head>
+        <body style="position: relative;">
+
+<!--  LOGO , SEARCH MUSIC , NOTIFICATION ICON  -->
+
+<header>
+<table>
+  <tr>
+    <td style="height: 60px;width: 20%">
+      <img src="studio.png" height="100%" width="100%">
+    </td>
+    <td style="height: 60px;width: 10%">
+      
+    </td>
+    <td style="height: 60px;width: 10%">
+      <p style="color: white; display: inline;">Favourites <p style="color:red;display: inline;font-size: 20px;">&#9829;</p></p>
+    </td>
+    <td style="height: 60px;width: 12%">
+      
+    </td>
+    <td style="height: 60px;width: 18%">
+     <label for="site-search">Search the MUSIC:</label>
+<input type="search" id="site-search" name="q"
+       aria-label="Search through site content">
+
+<!--  SEARCH BUTTON   -->
+<button>Search</button>
+    </td>
+    <td style="height: 60px;width: 8%">
+      <br><br>
+      <img src="notification.png" height="40%" width="40%" >
+    </td>
+    <td style="height: 60px; width: 10%">
+      <br><br>
+      <img src="aj.jpg" height="45px" width="40%" style="border-radius: 50%">
+    </td>
+  </tr>
+</table>
+
+</header>
+
+
+<br><br>
+
+        <!--  AUDIO PLAYER AT BOTTOM  -->
+ <div style="position: fixed; bottom: 0px;  height: 70px; width: 100%;background-color: #1a1a1a;z-index: 2; ">
+
+      <div style="width: 10%; height: 80px;  margin-left: 50px; color: white; position: fixed; bottom: 0; width:100% ">
+       <p> <img src="a1.jpg" height="100%" width="15%" style="display: inline; float: left;">
+     &nbsp;  ED Sheeran<br> &nbsp;  Shape  &hearts;
+       </p>
+       </div>
+      <div style="  margin-left: 30%;  height: 50px;  width: 30%;color: white;  position: fixed; bottom: 0; width:100%  "  >
+        &nbsp;&emsp;&nbsp;&emsp;<i style="font-size:24px" class="fa">&#xf021;</i>&nbsp;&emsp;
+        <i style="font-size:24px" class="fa">&#xf049;</i>&nbsp;&emsp;
+        <i style="font-size:24px" class="fa">&#xf04c;</i>&nbsp;&emsp;
+        <i style="font-size:24px" class="fa">&#xf050;</i>&nbsp;&emsp;
+        <i style="font-size:24px" class="fa">&#xf002;</i><br>
+        <br>
+        1:44
+        <hr align="left" width="35%" color="green;" style="display: inline-block; border: 3px solid green; border-radius: 2px;">
+        <hr align="left" width="15%" color="black" style="display: inline-block; margin-left: -10px; border: 3px solid black; border-radius: 2px;">
+        1:44
+</div>
+        <div style=" margin-left: 60%;   height: 50px;  width: 30%;color: white; position: fixed; bottom: 0; width:100%  ">
+        <i style="font-size:24px" class="fa">&#xf013;</i>&nbsp;&emsp;
+        <i style="font-size:24px" class="fa">&#xf028;</i>&nbsp;&emsp;
+        <i style="font-size:24px" class="fa">&#xf108;</i>&nbsp;&emsp;
+        <hr align="left" width="10%" color="green;" style="display: inline-block; border: 3px solid green; border-radius: 2px; ">
+        <hr align="left" width="5%" color="white" style="display: inline-block; margin-left: -10px; border: 3px solid white; border-radius: 2px;">&nbsp;&emsp;
+        <i style="font-size:24px" class="fa">&#xf08e;</i><br>
+
+      </div>
+    </div>
+
+    <!-- MAIN SECTION   -->
+            <main>
+               
+               <!--   3  IMAGES ZOOM ON HOVER  -->
+                <div class="hous" style="position: relative; left: 60; top: 0; width: 100% height: 100px;">
+                               <img src="sorry.png" class="imwe" height="200" width=28% /> 
+                               <img src="4.jpg" class="ime"  height="200" width=28% />
+                               <img src="5.jpg" class="imge"  height="200" width=28% />    
+                </div><br>
+
+               <p style="font-weight: 700; font-size: 30px; margin-left: 60">
+                               Popular Artists
+              </p>
+  
+
+  <!--          POLPULAR ARTIST IMAGE LINK TO PLAYLIST PAGE ON CLICK   -->
+              <div class="pm" style="width: 100% ;height: 70px;">
+
+                       <div id="img1"  style="margin-left: 6%">
+                             <a href="project.html"> <img  src="em.ico" ></a>
+                             <figcaption >EMINEM</figcaption>
+                       </div>
+
+                      <div id="img2" >
+                            <a href="project.html">  <img src="shk.ico" ></a>
+                            <figcaption> SHAKIRA</figcaption>
+                      </div>
+
+                      <div  id="img3" >
+                            <a href="project.html"> <img src="ts.jpg" ></a>
+                            <figcaption>TAYLOR</figcaption>
+                      </div>
+
+                      <div >
+                           <a href="project.html"> <img src="mgk.jpg" ></a>
+                           <figcaption> MGK</figcaption>
+                      </div>
+
+      </div>
+                   <br><br><br>
+
+                   <!--    IMAGES WITH DROPDOWN CONTENT     -->
+
+   <table  style="width: 95% ; margin-left: 6%; ">
+            <tr >  
+                 
+                  <td style="width: 12%  "> <img src="a2.jpg" width="90%" height="75px">  </td>
+                  <td >  <h3> MIRAGE </h3>  <h5 > ELSE  </h5> </td>
+                  <td  class="dropdown" style="font-size: 30px; " >  <button class="dropbtn"> &#8230;</button> 
+
+                          <div class="dropdown-content">
+                                 <a href="#"> &#9658; Play</a>
+                                 <a href="#"> + Add  </a>
+                                 <a href="#"> INFO</a>
+                          </div>
+
+                    </td>
+
+                  <td style="width: 12%  "> <img src="a2.jpg" width="90%" height="75px">  </td>
+                  <td >  <h3 >MIRAGE </h3>   <h5 > ELSE  </h5> </td>
+              
+                                 <td  class="dropdown" style="font-size: 30px; " >  <button class="dropbtn"> &#8230;</button>
+
+                          <div class="dropdown-content">
+                                 <a href="#"> &#9658; Play</a>
+                                 <a href="#"> + Add  </a>
+                                 <a href="#"> INFO</a>
+                          </div>
+
+                    </td>
+
+              </tr>
+              <tr style="margin-left: 60">  
+                 
+                  <td style="width: 12%  "> <img src="4.jpg"  width= 90% height="75px">  </td>
+                  <td >  <h3 >THUNDER</h3>  <h5 > BELIEVER  </h5> </td>
+                  <td  class="dropdown" style="font-size: 30px; " >  <button class="dropbtn"> &#8230;</button> 
+
+                          <div class="dropdown-content">
+                                 <a href="#"> &#9658; Play</a>
+                                 <a href="#"> + Add  </a>
+                                 <a href="#"> INFO</a>
+                          </div>
+
+                    </td>
+
+
+                   <td style="width: 12%  "> <img src="4.jpg"  width= 90% height="75px">  </td>
+                  <td >  <h3 >THUNDER</h3>  <h5 > BELIEVER  </h5> </td>
+                  <td  class="dropdown" style="font-size: 30px; " >  <button class="dropbtn"> &#8230;</button> 
+
+                          <div class="dropdown-content">
+                                 <a href="#"> &#9658; Play</a>
+                                 <a href="#"> + Add  </a>
+                                 <a href="#"> INFO</a>
+                          </div>
+
+                    </td>
+              </tr>
+
+</table>
+
+
+                 <br><br><br>
+
+                 <!--    IMAGES WITH CONTENT IN CENTER  -->
+      <div style="width: 100%; margin-left:60; " >
+            <div class="container">
+                 <img src="party.jpg"  width="100%" height="190" >
+                 <div class="centered">PARTY</div>
+            </div>
+
+            <div class="container">
+                  <img src="road.jpg" width="100%" height="190">
+                  <div class="centered">ROAD TRIP</div>
+            </div>
+
+            <div class="container">
+                 <img src="elect.jpg" width="100%"  height="190">
+                 <div class="centered">ELECTRONIC</div>
+            </div>
+
+      </div>
+       <br><br><br>
+
+      <div style="width: 100% ; height: 100px; margin-left:35;"  >
+        &nbsp;&nbsp;&nbsp;
+        <div class="songs">
+        <img src="station.jpg" width="100%" height="100%"style="border-radius: 50% " >        
+        </div>
+        <div class="songs">
+        <img src="love.jpg"  width="100%" height="100%"  style="border-radius: 50%" >
+               <div class="centered">LOVE</div>
+        </div>
+        <div class="songs">
+        <img src="retro.jpeg" width="100%" height="100%" style="border-radius: 50%">
+                <div class="centered">RETRO</div>
+        </div>
+        <div class="songs">
+        <img src="workout.jpg" width="100%" height="100%" style="border-radius: 50%" >
+                <div class="centered">WORKOUT</div>
+        </div>
+        <div class="songs">
+        <img src="pop.jpg" width="100%" height="100%" style="border-radius: 50%" >
+                <div class="centered">POP</div>
+        </div>
+        <div class="songs">
+        <img src="rock.jpg" width="100%" height="100%" style="border-radius: 50%" >
+                <div class="centered">ROCK</div>
+        </div>
+       
+      </div>
+   
+         <br>
+
+
+ <!--   ENGLISH SONG   -->
+         <p style="font-weight: 700; font-size: 30px; margin-left: 60">
+            English Songs
+        </p>
+        <div class="abim" style="width:100%; height: 150px; display: inline-block;margin-left:60;">
+           
+              <div >
+                     <img src="a1.jpg" height="100%" width="100%">
+                          <figcaption >ED SHEERAN</figcaption>
+              </div>
+
+              <div >
+                     <img src="a2.jpg" height="100%" width="100%">
+                          <figcaption>ARIANA</figcaption>
+              </div>
+
+              <div>
+                    <img src="a6.jpg" height="100%" width="100%">
+                         <figcaption>ZAYN MALIK</figcaption>
+              </div>
+
+              <div>
+                    <img src="a4.jpg" height="100%" width="100%">
+                         <figcaption>BEYONCE</figcaption>
+              </div>
+
+              <div>
+                    <img src="a5.jpg" height="100%" width="100%">
+                         <figcaption>PITBULL</figcaption>
+              </div>
+
+        </div>
+
+        <br><br><br>
+
+<!--   HINDI SONG   -->
+
+        <p style="font-weight: 700; font-size: 30px; margin-left: 60">
+            Hindi Songs
+        </p>
+        <div class="abim" style="width:100%; height: 150px; display: inline-block;margin-left:60;">
+              <div>
+                     <img src="g1.jpg" height="100%" width="100%">
+                          <figcaption >GOLMAAL</figcaption>
+              </div>
+
+            <div >
+                     <img src="g2.jpg" height="100%" width="100%">
+                           <figcaption>HATE STORY</figcaption>
+            </div>
+             
+            <div >
+                    <img src="g3.jpg" height="100%" width="100%">
+                          <figcaption>BADLA</figcaption>
+            </div>
+
+            <div >
+                    <img src="g4.jpg" height="100%" width="100%">
+                         <figcaption>EK DEWANA</figcaption>
+            </div>
+
+            <div >
+                    <img src="g5.jpg" height="100%" width="100%">
+                         <figcaption>SOORMA</figcaption>
+            </div>
+            
+        </div>
+
+
+        <br><br><br><br><br><br><br><br>
+
+      </main>
+       
+<!--  ASIDE SECTION USED FOER QUEUE  -->
+
+<aside >
+
+<table style="width:50%">
+  <tr>
+    <th style="text-align: left;"> QUEUE </th>
+             <th>
+              <!-- DROPDOWN CONTENT FOR QUEUE  -->
+                    <div class="dropdown" style="margin-left: 80%">
+                            <span>queue </span>
+                            <div class="dropdown-content">
+                              <p style="height: 15px; ">Play List</p>
+                              <p style="height: 15px;border-top: 2px solid black; " >Favourite Song</p>
+                            </div>
+                    </div>
+            </th> 
+  </tr>
+
+</table>
+      <br><br>
+
+<!--   QUEUE WITH INVISIBLE DROP       -->
+
+ <div class="verticalMenu">
+<table    style="width: 95%">
+              <tr>  
+                  <td style="width: 30%  "> <img src="a2.jpg" width="90%" height="55px">  </td>
+                  <td >  <h4 >MIRAGE</h3>  <br><br>  <h6 > ELSE  </h5> </td>
+                  <td >  <p > &#9825; </p>  </td> 
+              </tr>
+
+              <tr>  
+                  <td style="width: 30%  "> <img src="em.ico" width="90%" height="55px">  </td>
+                  <td >  <h4 >  RAP GOD</h3> <br><br>  <h6> 6 MILE  </h5> </td>
+                  <td >  <p> &#9825; </p>  </td> 
+              </tr>
+
+              <tr>  
+                  <td style="width: 30%  "> <img src="ts.jpg" width="90%" height="55px">  </td>
+                  <td >  <h4>GORGEOUS </h3>  <br><br>  <h6> REPUTATION  </h5> </td>
+                  <td >  <p > &#9825; </p>  </td> 
+              </tr>
+
+              <tr >  
+                  <td style="width: 30%  "> <img src="shk.ico" width="90%" height="55px">  </td>
+                  <td >  <h4>SHINE</h3>  <br><br>  <h6> SHOWDOWN  </h5> </td>
+                  <td >  <p > &#9825; </p>  </td> 
+              </tr>
+
+              <tr >  
+                  <td style="width: 30%  "> <img src="a1.jpg" width="90%" height="55px">  </td>
+                  <td >  <h4>SHAPE OF YOU</h3>  <br> <br> <h6> ELSE  </h5> </td>
+                  <td >  <p> &#9825; </p>  </td> 
+              </tr>
+
+              <tr >  
+                  <td style="width: 30%  "> <img src="a6.jpg" width="90%" height="55px">  </td>
+                  <td >  <h4 >MIRAGE</h3>  <br><br>  <h6> ELSE  </h5> </td>
+                  <td >  <p> &#9825; </p>  </td> 
+              </tr>
+
+              <tr >  
+                  <td style="width: 30%  "> <img src="g2.jpg" width="90%" height="55px">  </td>
+                  <td >  <h4 >MIRAGE</h3>  <br><br>  <h6> ELSE  </h5> </td>
+                  <td >  <p> &#9825; </p>  </td> 
+              </tr>
+              
+            <tr>  
+                  <td style="width: 30%  "> <img src="a2.jpg" width="90%" height="55px">  </td>
+                  <td >  <h4 >MIRAGE</h3>  <br><br>  <h6> ELSE  </h5> </td>
+                  <td >  <p > &#9825; </p>  </td> 
+              </tr>
+
+              <tr>  
+                  <td style="width: 30%  "> <img src="em.ico" width="90%" height="55px">  </td>
+                  <td >  <h4>  RAP GOD</h3> <br><br>  <h6> 6 MILE  </h5> </td>
+                  <td >  <p> &#9825; </p>  </td> 
+              </tr>
+
+              <tr>  
+                  <td style="width: 30%  "> <img src="ts.jpg" width="90%" height="55px">  </td>
+                  <td >  <h4>GORGEOUS </h3>  <br><br>  <h6> REPUTATION  </h5> </td>
+                  <td >  <p> &#9825; </p>  </td> 
+              </tr>
+              
+              <tr>  
+                  <td style="width: 30%  "> <img src="a2.jpg" width="90%" height="55px">  </td>
+                  <td >  <h4>MIRAGE</h3>  <br><br>  <h6> ELSE  </h5> </td>
+                  <td >  <p> &#9825; </p>  </td> 
+              </tr>
+
+              <tr >  
+                  <td style="width: 30%  "> <img src="shk.ico" width="90%" height="55px">  </td>
+                  <td >  <h4>SHINE</h3>  <br><br>  <h6> SHOWDOWN  </h5> </td>
+                  <td >  <p> &#9825; </p>  </td> 
+              </tr>
+
+              <tr>  
+                  <td style="width: 30%  "> <img src="a1.jpg" width="90%" height="55px">  </td>
+                  <td >  <h4>SHAPE OF YOU</h3>  <br> <br> <h6> ELSE  </h5> </td>
+                  <td >  <p> &#9825; </p>  </td> 
+              </tr>
+
+              <tr>  
+                  <td style="width: 30%  "> <img src="a6.jpg" width="90%" height="55px">  </td>
+                  <td >  <h4>MIRAGE</h3>  <br><br>  <h6> ELSE  </h5> </td>
+                  <td >  <p> &#9825; </p>  </td> 
+              </tr>
+
+              <tr>  
+                  <td style="width: 30%  "> <img src="g2.jpg" width="90%" height="55px">  </td>
+                  <td >  <h4>MIRAGE</h3>  <br><br>  <h6> ELSE  </h5> </td>
+                  <td >  <p> &#9825; </p>  </td> 
+              </tr>
+              
+              <tr>  
+                  <td style="width: 30%  "> <img src="a2.jpg" width="90%" height="55px">  </td>
+                  <td >  <h4>MIRAGE</h3>  <br><br>  <h6> ELSE  </h5> </td>
+                  <td >  <p > &#9825; </p>  </td> 
+              </tr>
+
+    </table>
+
+</div>
+</aside>
+</body>
+
+    </html>
